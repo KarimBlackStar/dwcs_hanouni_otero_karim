@@ -16,6 +16,9 @@
         <li><a href="actividad1/ejercicio_5.php">Ejercicio 5</a></li>
         <li><a href="actividad1/ejercicio_6.php">Ejercicio 6</a></li>
         <li><a href="actividad1/ejercicio_7.php">Ejercicio 7</a></li>
+        <li><a href="actividad1/ejercicio_8.php">Ejercicio 8</a></li>
+        <li><a href="actividad1/ejercicio_9.php">Ejercicio 9</a></li>
+
     </ul>
 </body>
 
