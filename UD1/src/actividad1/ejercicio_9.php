@@ -20,12 +20,6 @@
     </form>
 
     <?php
-    /**
-     * Calcula el mayor, el menor y la media de los valores de un array.
-     *
-     * @param array $datos Array de números.
-     * @return array Array asociativo con las claves 'mayor', 'menor' y 'media'.
-     */
     function calcularEstadisticas(array $datos): array {
         // Obtenemos el mayor y menor con funciones nativas (o mediante bucle)
         $mayor = max($datos);
@@ -34,8 +28,7 @@
         // Sumamos los elementos y dividimos entre el número total
         $totalElementos = count($datos);
         $suma = array_sum($datos);
-        $media = $totalElementos > 0 ? ($suma / $totalElementos) : 0;
-
+        $media = $totalElemento
         // Devolvemos los tres valores empaquetados en un array asociativo
         return [
             "mayor" => $mayor,
